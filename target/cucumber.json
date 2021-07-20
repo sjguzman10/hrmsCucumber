@@ -1,0 +1,170 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1860000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is logged in with valid admin credentials",
+            "match": {
+              "location": "steps.EmployeeSearchSteps.user_is_logged_in_with_valid_admin_credentials()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1845000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user clicks on PIM option",
+            "match": {
+              "location": "steps.AddEmployeeSteps.user_clicks_on_pim_option()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 687000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user clicks on Add employee button",
+            "match": {
+              "location": "steps.AddEmployeeSteps.user_clicks_on_add_employee_button()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-07-09T01:17:07.606Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3454000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Hooks.start()"
+            }
+          }
+        ],
+        "line": 45,
+        "name": "Add the employee and testing it from the backend",
+        "description": "",
+        "id": "adding-employees;add-the-employee-and-testing-it-from-the-backend",
+        "after": [
+          {
+            "result": {
+              "duration": 660000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Hooks.end()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 351000000,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "user enters first name \"Yulia123\" middle name \"MS\" and last name \"Yulia456\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Yulia123\"",
+                  "offset": 23
+                },
+                {
+                  "val": "\"MS\"",
+                  "offset": 46
+                },
+                {
+                  "val": "\"Yulia456\"",
+                  "offset": 65
+                }
+              ],
+              "location": "steps.AddEmployeeSteps.user_enters_first_name_middle_name_and_last_name(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 39000000,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "capture the employeeId",
+            "match": {
+              "location": "steps.AddEmployeeSteps.capture_the_employee_id()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1576000000,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "user clicks on save button option",
+            "match": {
+              "location": "steps.AddEmployeeSteps.user_clicks_on_save_button_option()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 930000000,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "query the HRMS database",
+            "match": {
+              "location": "steps.DbSteps.query_the_hrms_database()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "verify the data from frontend and backend",
+            "match": {
+              "location": "steps.AddEmployeeSteps.verify_the_data_from_frontend_and_backend()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@db"
+          }
+        ]
+      }
+    ],
+    "name": "Adding employees",
+    "description": "",
+    "id": "adding-employees",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/AddEmployee.feature",
+    "tags": []
+  }
+]

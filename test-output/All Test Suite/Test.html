@@ -1,0 +1,154 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>15/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu May 27 22:43:49 PDT 2021</td>
+</tr>
+<tr><td>Total time:</td><td>22 seconds (22670 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testng.basics.Task01.aTest()'><b>aTest</b><br>Test class: testng.basics.Task01</td>
+<td></td>
+<td>0</td>
+<td>testng.basics.Task01@15ca7889</td></tr>
+<tr>
+<td title='testng.basics.Class01.aclasstest()'><b>aclasstest</b><br>Test class: testng.basics.Class01</td>
+<td></td>
+<td>0</td>
+<td>testng.basics.Class01@7b02881e</td></tr>
+<tr>
+<td title='testng.basics.Task01.bTest()'><b>bTest</b><br>Test class: testng.basics.Task01</td>
+<td></td>
+<td>0</td>
+<td>testng.basics.Task01@15ca7889</td></tr>
+<tr>
+<td title='testng.basics.Class01.bclasstest()'><b>bclasstest</b><br>Test class: testng.basics.Class01</td>
+<td></td>
+<td>0</td>
+<td>testng.basics.Class01@7b02881e</td></tr>
+<tr>
+<td title='testng.basics.Task01.cTest()'><b>cTest</b><br>Test class: testng.basics.Task01</td>
+<td></td>
+<td>0</td>
+<td>testng.basics.Task01@15ca7889</td></tr>
+<tr>
+<td title='testng.basics.Class01.cclasstest()'><b>cclasstest</b><br>Test class: testng.basics.Class01</td>
+<td></td>
+<td>0</td>
+<td>testng.basics.Class01@7b02881e</td></tr>
+<tr>
+<td title='testng.basics02.PriorityDemo.firstMethod()'><b>firstMethod</b><br>Test class: testng.basics02.PriorityDemo</td>
+<td></td>
+<td>0</td>
+<td>testng.basics02.PriorityDemo@d21a74c</td></tr>
+<tr>
+<td title='testng.basics02.PriorityDemo.secondMethod()'><b>secondMethod</b><br>Test class: testng.basics02.PriorityDemo</td>
+<td></td>
+<td>0</td>
+<td>testng.basics02.PriorityDemo@d21a74c</td></tr>
+<tr>
+<td title='testng.basics02.PriorityDemo.thirdMethod()'><b>thirdMethod</b><br>Test class: testng.basics02.PriorityDemo</td>
+<td></td>
+<td>0</td>
+<td>testng.basics02.PriorityDemo@d21a74c</td></tr>
+<tr>
+<td title='testng.basics02.EnableAndDisableDemo02.validLogin()'><b>validLogin</b><br>Test class: testng.basics02.EnableAndDisableDemo02</td>
+<td></td>
+<td>1</td>
+<td>testng.basics02.EnableAndDisableDemo02@1ebd319f</td></tr>
+<tr>
+<td title='testng.basics.LoginTestBatch09.validLogin()'><b>validLogin</b><br>Test class: testng.basics.LoginTestBatch09</td>
+<td></td>
+<td>1</td>
+<td>testng.basics.LoginTestBatch09@3c0be339</td></tr>
+<tr>
+<td title='testng.basics02.EnableAndDisableDemo.validLogin()'><b>validLogin</b><br>Test class: testng.basics02.EnableAndDisableDemo</td>
+<td></td>
+<td>1</td>
+<td>testng.basics02.EnableAndDisableDemo@7a675056</td></tr>
+<tr>
+<td title='testng.basics02.EnableAndDisableDemo02.validationOfTitle()'><b>validationOfTitle</b><br>Test class: testng.basics02.EnableAndDisableDemo02</td>
+<td></td>
+<td>0</td>
+<td>testng.basics02.EnableAndDisableDemo02@1ebd319f</td></tr>
+<tr>
+<td title='testng.basics.LoginTestBatch09.validationOfTitle()'><b>validationOfTitle</b><br>Test class: testng.basics.LoginTestBatch09</td>
+<td></td>
+<td>0</td>
+<td>testng.basics.LoginTestBatch09@3c0be339</td></tr>
+<tr>
+<td title='testng.basics02.EnableAndDisableDemo.validationOfTitle()'><b>validationOfTitle</b><br>Test class: testng.basics02.EnableAndDisableDemo</td>
+<td></td>
+<td>0</td>
+<td>testng.basics02.EnableAndDisableDemo@7a675056</td></tr>
+</table><p>
+</body>
+</html>

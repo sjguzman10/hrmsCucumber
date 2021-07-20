@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Tests for packages(failed)">
+    <classes>
+      <class name="testng.basics03.DataProviderDemo">
+        <methods>
+          <include name="tearDown"/>
+          <include name="openBrowserAndLaunchApp"/>
+          <include name="validLogin"/>
+        </methods>
+      </class> <!-- testng.basics03.DataProviderDemo -->
+    </classes>
+  </test> <!-- Tests for packages(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->

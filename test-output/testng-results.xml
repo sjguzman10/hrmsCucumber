@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="21" passed="20" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-05-28T00:12:57 PDT" name="All Test Suite" finished-at="2021-05-28T00:13:13 PDT" duration-ms="15294">
+    <groups>
+      <group name="testone">
+        <method signature="Grouping.secondMethod()[pri:0, instance:testng.basics03.Grouping@1d8bd0de]" name="secondMethod" class="testng.basics03.Grouping"/>
+      </group> <!-- testone -->
+      <group name="sprint1">
+        <method signature="LoginTest.validationOfTitle()[pri:0, instance:testng.basics03.LoginTest@45ca843]" name="validationOfTitle" class="testng.basics03.LoginTest"/>
+      </group> <!-- sprint1 -->
+      <group name="regression">
+        <method signature="ExampleBatch09.thirdFunction()[pri:0, instance:testng.basics03.ExampleBatch09@186f8716]" name="thirdFunction" class="testng.basics03.ExampleBatch09"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="ExampleBatch09.firstFunction()[pri:0, instance:testng.basics03.ExampleBatch09@186f8716]" name="firstFunction" class="testng.basics03.ExampleBatch09"/>
+        <method signature="ExampleBatch09.fourthFunction()[pri:0, instance:testng.basics03.ExampleBatch09@186f8716]" name="fourthFunction" class="testng.basics03.ExampleBatch09"/>
+        <method signature="ExampleBatch09.secondFunction()[pri:0, instance:testng.basics03.ExampleBatch09@186f8716]" name="secondFunction" class="testng.basics03.ExampleBatch09"/>
+        <method signature="Grouping.firstMethod()[pri:0, instance:testng.basics03.Grouping@1d8bd0de]" name="firstMethod" class="testng.basics03.Grouping"/>
+        <method signature="Grouping.fourthMethod()[pri:0, instance:testng.basics03.Grouping@1d8bd0de]" name="fourthMethod" class="testng.basics03.Grouping"/>
+        <method signature="Grouping.thirdMethod()[pri:0, instance:testng.basics03.Grouping@1d8bd0de]" name="thirdMethod" class="testng.basics03.Grouping"/>
+      </group> <!-- smoke -->
+      <group name="sprint2">
+        <method signature="LoginTest.validLogin()[pri:0, instance:testng.basics03.LoginTest@45ca843]" name="validLogin" class="testng.basics03.LoginTest"/>
+      </group> <!-- sprint2 -->
+    </groups>
+    <test started-at="2021-05-28T00:12:57 PDT" name="Tests for packages" finished-at="2021-05-28T00:13:13 PDT" duration-ms="15294">
+      <class name="testng.basics.Class01">
+        <test-method is-config="true" signature="beforeTestMethod()[pri:0, instance:testng.basics.Class01@f2ff811]" started-at="2021-05-28T00:12:57 PDT" name="beforeTestMethod" finished-at="2021-05-28T00:12:57 PDT" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testng.basics.Class01@f2ff811]" started-at="2021-05-28T00:12:57 PDT" name="beforeMethod" finished-at="2021-05-28T00:12:57 PDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="aclasstest()[pri:0, instance:testng.basics.Class01@f2ff811]" started-at="2021-05-28T00:12:57 PDT" name="aclasstest" finished-at="2021-05-28T00:12:57 PDT" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aclasstest -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testng.basics.Class01@f2ff811]" started-at="2021-05-28T00:12:57 PDT" name="afterMethod" finished-at="2021-05-28T00:12:57 PDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="bclasstest()[pri:0, instance:testng.basics.Class01@f2ff811]" started-at="2021-05-28T00:12:57 PDT" name="bclasstest" finished-at="2021-05-28T00:12:57 PDT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bclasstest -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testng.basics.Class01@f2ff811]" started-at="2021-05-28T00:12:57 PDT" name="beforeMethod" finished-at="2021-05-28T00:12:57 PDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testng.basics.Class01@f2ff811]" started-at="2021-05-28T00:12:57 PDT" name="afterMethod" finished-at="2021-05-28T00:12:57 PDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testng.basics.Class01@f2ff811]" started-at="2021-05-28T00:12:57 PDT" name="beforeMethod" finished-at="2021-05-28T00:12:57 PDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="cclasstest()[pri:0, instance:testng.basics.Class01@f2ff811]" started-at="2021-05-28T00:12:57 PDT" name="cclasstest" finished-at="2021-05-28T00:12:57 PDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cclasstest -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testng.basics.Class01@f2ff811]" started-at="2021-05-28T00:12:57 PDT" name="afterMethod" finished-at="2021-05-28T00:12:57 PDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterTestMethod()[pri:0, instance:testng.basics.Class01@f2ff811]" started-at="2021-05-28T00:13:13 PDT" name="afterTestMethod" finished-at="2021-05-28T00:13:13 PDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTestMethod -->
+      </class> <!-- testng.basics.Class01 -->
+      <class name="testng.basics03.LoginTest">
+        <test-method is-config="true" signature="openBrowserAndLaunchApp()[pri:0, instance:testng.basics03.LoginTest@45ca843]" started-at="2021-05-28T00:13:05 PDT" name="openBrowserAndLaunchApp" finished-at="2021-05-28T00:13:07 PDT" duration-ms="2138" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowserAndLaunchApp -->
+        <test-method signature="validLogin()[pri:0, instance:testng.basics03.LoginTest@45ca843]" started-at="2021-05-28T00:13:07 PDT" name="validLogin" finished-at="2021-05-28T00:13:09 PDT" duration-ms="1650" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testng.basics03.LoginTest@45ca843]" started-at="2021-05-28T00:13:09 PDT" name="tearDown" finished-at="2021-05-28T00:13:10 PDT" duration-ms="627" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="openBrowserAndLaunchApp()[pri:0, instance:testng.basics03.LoginTest@45ca843]" started-at="2021-05-28T00:13:10 PDT" name="openBrowserAndLaunchApp" finished-at="2021-05-28T00:13:12 PDT" duration-ms="2167" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowserAndLaunchApp -->
+        <test-method signature="validationOfTitle()[pri:0, instance:testng.basics03.LoginTest@45ca843]" started-at="2021-05-28T00:13:12 PDT" name="validationOfTitle" finished-at="2021-05-28T00:13:12 PDT" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validationOfTitle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testng.basics03.LoginTest@45ca843]" started-at="2021-05-28T00:13:12 PDT" name="tearDown" finished-at="2021-05-28T00:13:13 PDT" duration-ms="641" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testng.basics03.LoginTest -->
+      <class name="testng.basics.LoginTestBatch09">
+        <test-method is-config="true" signature="openBrowserAndLaunchApp()[pri:0, instance:testng.basics.LoginTestBatch09@568ff82]" started-at="2021-05-28T00:12:57 PDT" name="openBrowserAndLaunchApp" finished-at="2021-05-28T00:13:00 PDT" duration-ms="2563" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowserAndLaunchApp -->
+        <test-method signature="validLogin()[pri:0, instance:testng.basics.LoginTestBatch09@568ff82]" started-at="2021-05-28T00:13:00 PDT" name="validLogin" finished-at="2021-05-28T00:13:02 PDT" duration-ms="1949" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testng.basics.LoginTestBatch09@568ff82]" started-at="2021-05-28T00:13:02 PDT" name="tearDown" finished-at="2021-05-28T00:13:02 PDT" duration-ms="639" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="openBrowserAndLaunchApp()[pri:0, instance:testng.basics.LoginTestBatch09@568ff82]" started-at="2021-05-28T00:13:02 PDT" name="openBrowserAndLaunchApp" finished-at="2021-05-28T00:13:05 PDT" duration-ms="2177" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowserAndLaunchApp -->
+        <test-method signature="validationOfTitle()[pri:0, instance:testng.basics.LoginTestBatch09@568ff82]" started-at="2021-05-28T00:13:05 PDT" name="validationOfTitle" finished-at="2021-05-28T00:13:05 PDT" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validationOfTitle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testng.basics.LoginTestBatch09@568ff82]" started-at="2021-05-28T00:13:05 PDT" name="tearDown" finished-at="2021-05-28T00:13:05 PDT" duration-ms="628" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testng.basics.LoginTestBatch09 -->
+      <class name="testng.basics03.ExampleBatch09">
+        <test-method signature="firstFunction()[pri:0, instance:testng.basics03.ExampleBatch09@186f8716]" started-at="2021-05-28T00:12:57 PDT" name="firstFunction" finished-at="2021-05-28T00:12:57 PDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstFunction -->
+        <test-method signature="fourthFunction()[pri:0, instance:testng.basics03.ExampleBatch09@186f8716]" started-at="2021-05-28T00:12:57 PDT" name="fourthFunction" finished-at="2021-05-28T00:12:57 PDT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fourthFunction -->
+        <test-method signature="secondFunction()[pri:0, instance:testng.basics03.ExampleBatch09@186f8716]" started-at="2021-05-28T00:12:57 PDT" name="secondFunction" finished-at="2021-05-28T00:12:57 PDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- secondFunction -->
+        <test-method signature="thirdFunction()[pri:0, instance:testng.basics03.ExampleBatch09@186f8716]" started-at="2021-05-28T00:12:57 PDT" name="thirdFunction" finished-at="2021-05-28T00:12:57 PDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- thirdFunction -->
+      </class> <!-- testng.basics03.ExampleBatch09 -->
+      <class name="testng.basics03.DataProviderDemo">
+        <test-method signature="validLogin(java.lang.String, java.lang.String)[pri:0, instance:testng.basics03.DataProviderDemo@5ab9e72c]" started-at="2021-05-28T00:12:57 PDT" name="validLogin" data-provider="loginData" finished-at="2021-05-28T00:12:57 PDT" duration-ms="0" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Some DataProvider public java.lang.Object[][] testng.basics03.DataProviderDemo.loginData(java.lang.String,java.lang.String) parameters unresolved:  at 0 type class java.lang.String
+ at 1 type class java.lang.String
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Some DataProvider public java.lang.Object[][] testng.basics03.DataProviderDemo.loginData(java.lang.String,java.lang.String) parameters unresolved:  at 0 type class java.lang.String
+ at 1 type class java.lang.String
+
+at org.testng.internal.MethodInvocationHelper.getParameters(MethodInvocationHelper.java:222)
+at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:147)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:797)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:740)
+at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:59)
+at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:38)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:788)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:767)
+at org.testng.TestRunner.run(TestRunner.java:588)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1214)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1136)
+at org.testng.TestNG.runSuites(TestNG.java:1066)
+at org.testng.TestNG.run(TestNG.java:1034)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLogin -->
+      </class> <!-- testng.basics03.DataProviderDemo -->
+      <class name="testng.basics03.Grouping">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testng.basics03.Grouping@1d8bd0de]" started-at="2021-05-28T00:13:05 PDT" name="beforeMethod" finished-at="2021-05-28T00:13:05 PDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="firstMethod()[pri:0, instance:testng.basics03.Grouping@1d8bd0de]" started-at="2021-05-28T00:13:05 PDT" name="firstMethod" finished-at="2021-05-28T00:13:05 PDT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testng.basics03.Grouping@1d8bd0de]" started-at="2021-05-28T00:13:05 PDT" name="afterMethod" finished-at="2021-05-28T00:13:05 PDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testng.basics03.Grouping@1d8bd0de]" started-at="2021-05-28T00:13:05 PDT" name="beforeMethod" finished-at="2021-05-28T00:13:05 PDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="fourthMethod()[pri:0, instance:testng.basics03.Grouping@1d8bd0de]" started-at="2021-05-28T00:13:05 PDT" name="fourthMethod" finished-at="2021-05-28T00:13:05 PDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fourthMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testng.basics03.Grouping@1d8bd0de]" started-at="2021-05-28T00:13:05 PDT" name="afterMethod" finished-at="2021-05-28T00:13:05 PDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testng.basics03.Grouping@1d8bd0de]" started-at="2021-05-28T00:13:05 PDT" name="beforeMethod" finished-at="2021-05-28T00:13:05 PDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="secondMethod()[pri:0, instance:testng.basics03.Grouping@1d8bd0de]" started-at="2021-05-28T00:13:05 PDT" name="secondMethod" finished-at="2021-05-28T00:13:05 PDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- secondMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testng.basics03.Grouping@1d8bd0de]" started-at="2021-05-28T00:13:05 PDT" name="beforeMethod" finished-at="2021-05-28T00:13:05 PDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testng.basics03.Grouping@1d8bd0de]" started-at="2021-05-28T00:13:05 PDT" name="afterMethod" finished-at="2021-05-28T00:13:05 PDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="thirdMethod()[pri:0, instance:testng.basics03.Grouping@1d8bd0de]" started-at="2021-05-28T00:13:05 PDT" name="thirdMethod" finished-at="2021-05-28T00:13:05 PDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- thirdMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testng.basics03.Grouping@1d8bd0de]" started-at="2021-05-28T00:13:05 PDT" name="afterMethod" finished-at="2021-05-28T00:13:05 PDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testng.basics03.Grouping -->
+      <class name="testng.basics.Task01">
+        <test-method signature="aTest()[pri:0, instance:testng.basics.Task01@50caa560]" started-at="2021-05-28T00:13:05 PDT" name="aTest" finished-at="2021-05-28T00:13:05 PDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aTest -->
+        <test-method signature="bTest()[pri:0, instance:testng.basics.Task01@50caa560]" started-at="2021-05-28T00:13:05 PDT" name="bTest" finished-at="2021-05-28T00:13:05 PDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bTest -->
+        <test-method signature="cTest()[pri:0, instance:testng.basics.Task01@50caa560]" started-at="2021-05-28T00:13:05 PDT" name="cTest" finished-at="2021-05-28T00:13:05 PDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cTest -->
+      </class> <!-- testng.basics.Task01 -->
+      <class name="testng.basics.Task02">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:testng.basics.Task02@2a266d09]" started-at="2021-05-28T00:13:13 PDT" name="beforeClass" finished-at="2021-05-28T00:13:13 PDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testng.basics.Task02@2a266d09]" started-at="2021-05-28T00:13:13 PDT" name="beforeMethod" finished-at="2021-05-28T00:13:13 PDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="test1()[pri:0, instance:testng.basics.Task02@2a266d09]" started-at="2021-05-28T00:13:13 PDT" name="test1" finished-at="2021-05-28T00:13:13 PDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testng.basics.Task02@2a266d09]" started-at="2021-05-28T00:13:13 PDT" name="afterMethod" finished-at="2021-05-28T00:13:13 PDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testng.basics.Task02@2a266d09]" started-at="2021-05-28T00:13:13 PDT" name="beforeMethod" finished-at="2021-05-28T00:13:13 PDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="test2()[pri:0, instance:testng.basics.Task02@2a266d09]" started-at="2021-05-28T00:13:13 PDT" name="test2" finished-at="2021-05-28T00:13:13 PDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testng.basics.Task02@2a266d09]" started-at="2021-05-28T00:13:13 PDT" name="afterMethod" finished-at="2021-05-28T00:13:13 PDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:testng.basics.Task02@2a266d09]" started-at="2021-05-28T00:13:13 PDT" name="afterClass" finished-at="2021-05-28T00:13:13 PDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- testng.basics.Task02 -->
+    </test> <!-- Tests for packages -->
+  </suite> <!-- All Test Suite -->
+</testng-results>
